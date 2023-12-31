@@ -76,7 +76,7 @@ print_r($api->deliveryReport(/*Sender Number*/"989999xxxx", /*Message ID*/482222
 #### ViewReceive
 ```php
 //Call this before running any functions
-print_r($api->deliveryReport(/*Number*/"989999xxxx", /*Message ID Or Null*/48222256));
+print_r($api->viewReceive(/*Number*/"989999xxxx", /*Message ID Or Null*/48222256));
 ```
 
 =======
