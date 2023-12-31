@@ -1,0 +1,22 @@
+{
+    "name": "iamirnet/samantel",
+    "description": "A PHP wrapper for Samantel",
+    "keywords": ["samantel", "sms", "api", "soap"],
+    "homepage": "https://php.iamir.net/packages/samantel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name" : "iamirnet",
+            "email" : "me@iamir.net",
+            "homepage": "https://iamir.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "iAmirNet\\SamanTel\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
